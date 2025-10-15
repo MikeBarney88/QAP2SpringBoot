@@ -1,0 +1,12 @@
+CREATE DATABASE recipe_db;
+
+USE recipe_db;
+
+CREATE TABLE recipe (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255),
+    ingredients TEXT,
+    instructions TEXT,
+    prep_time INT,
+    servings INT
+);
